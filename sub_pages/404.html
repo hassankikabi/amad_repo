@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ooppss! You lost!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<meta name="description" content="AMAD" />
+	<meta name="keywords" content="AMAD" />-->
+	<meta name="author" content="AMAD" />
+
+  
+  	<!-- Facebook and Twitter integration 
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />-->
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
+	
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+	<link href="css/font_lato.css" rel="stylesheet" type="text/css" />
+	
+	<link rel="stylesheet" href="css/css_404/bootstrap.min.css">
+	<link rel="stylesheet" href="css/css_404/animate.css">
+	
+
+	<!-- Modernizr JS -->
+	<script src="js/js_404/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<style>
+    html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #000;
+}
+
+a {
+  color: #fef1a2;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: #137971;
+}
+
+.fh5co-container {
+  margin-top: 50px;
+}
+
+.overlay {
+  background: url(images/404.svg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  z-index: 2;
+}
+.overlay:after, .overlay:before {
+  content: "";
+  background: #ffffff;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  z-index: 10;
+  width: 20px;
+}
+.overlay:before {
+  left: 0;
+}
+.overlay:after {
+  right: 0;
+}
+
+#video {
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  #video {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #video {
+    height: 200px;
+  }
+}
+
+.fh5co-404-text h2 {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 480px) {
+  .fh5co-404-text h2 {
+    font-size: 18px;
+  }
+}
+
+.fh5co-copyright {
+  margin-top: 50px;
+}
+
+.btn-primary {
+  display: inline-block;
+  outline: none;
+  font-family: inherit;
+  font-size: 1em;
+  box-sizing: border-box;
+  border: none;
+  border-radius: .3em;
+  height: 2.75em;
+  line-height: 2.5em;
+  text-transform: uppercase;
+  padding: 0 1em;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+              inset 0 -2px 5px 1px rgba(139,66,8,1),
+              inset 0 -1px 1px 3px rgba(250,227,133,1);
+  background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+  border: 1px solid #a55d07;
+  color: rgb(120,50,5);
+  text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  background-size: 100% 100%;
+  background-position:center;
+}
+.btn-primary:hover, .btn-primary:focus {
+ background-size: 150% 150%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23),
+                inset 0 -2px 5px 1px #b17d10,
+                inset 0 -1px 1px 3px rgba(250,227,133,1);
+  border: 1px solid rgba(165,93,7,.6);
+  color: rgba(120,50,5,.8);
+}
+.btn-primary:active {
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+              inset 0 -2px 5px 1px #b17d10,
+                inset 0 -1px 1px 3px rgba(250,227,133,1);
+}
+
+.js .animate-box {
+  opacity: 0;
+}
+	</style>
+
+	</head>
+	<body>
+
+
+		
+		
+		<div class="container fh5co-container topmargin-1g ">
+
+			<div class="row">
+				<div class="col-md-12 animate-box" data-animate-effect="fadeIn">
+					<div class="fh5co-404-wrap" id="video" data-vide-bg="video/dubai" data-vide-options="position: 0 50%">
+						<div class="overlay"></div>
+					</div>
+				</div>
+				<div class="col-md-12 text-center fh5co-404-text animate-box"  data-animate-effect="fadeIn">
+					<h2>Looks like you got lost!</h2>
+					<p><a href="../index.html" class="btn btn-primary">Go back home</a></p>
+				</div>
+				<div class="col-md-12 text-center fh5co-copyright animate-box" data-animate-effect="fadeInUp">
+					<p><small>Copyright &copy; 2020 All Rights Reserved by <a href="../index.html" style="color: blue;">AMAD | ASK ME ABOUT DUBAI</a></small></p>
+				</div>
+			</div>
+		
+		</div>
+	
+	<!-- jQuery -->
+	<script src="js/js_404/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/js_404/bootstrap.min.js"></script>
+	<!-- Vide -->
+	<script src="js/js_404/jquery.vide.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/js_404/jquery.waypoints.min.js"></script>
+	<!-- Main JS -->
+	<script src="js/js_404/main.js"></script>
+
+
+	</body>
+</html>
+
